@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.container{
+    height: 100vh;
+    width: 80vw;
+    /* border: 5px solid red; */
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.post-container{
+    width: 95%;
+    height: auto;
+    border-radius: 1vw;
+    background-color: #FFB059;
+    position: relative;
+    filter: drop-shadow(0 0.2vw 2px rgb(79, 79, 79));
+    padding-top: 0.4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.profile-date{
+    /* border: 5px solid green; */
+    width: 30vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.profpic{
+    width: 4vw;
+    height: 4vw;
+    /* border: 5px solid red; */
+    border-radius: 4vw;
+    background-image: url(/img/kelas-fikri.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-text-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 5px solid red; */
+}
+
+.respond-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 20vw;
+    /* border: 5px solid red; */
+    gap: 2vw;
+    bottom: 1vw;
+}
+
+.respond-container>img{
+    cursor: pointer;
+    width: 3vw;
+}

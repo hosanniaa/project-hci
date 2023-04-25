@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calender{
+    position: absolute;
+    top: 8vw;
+    right: 0;
+    width: 80vw;
+    height: 120vh;
+    background-size: cover;
+    background-color: white;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squares{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 60vw;
+    height: auto;
+    justify-content: center;
+}
+
+.square:hover{
+    background-color: #FFB059;
+    color: white;
+}
+
+.square{
+    width:6vw;
+    height: 6vw;
+    border-radius: 1.5vw;
+    background-color: #D9D9D9;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    text-decoration: none;
+}
+
+.squarey{
+    width:6vw;
+    height: 6vw;
+    border-radius: 1.5vw;
+    background-color: #D9D9D9;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    text-decoration: none;
+}
+
+.day{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5.2vw;
+    height: 2vw;
+    margin-left: 4.5vw;
+}
+
+.day h1{
+    font-size: 1.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+.day h2{
+    font-size: 1.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    color: red;
+}
+
+.squarey:hover{
+    background-color: #FFB059;
+    color: white;
+}
+
+.line{
+    margin: auto;
+    align-items: center;
+    width: 55vw;
+    height: 0.1vw;
+    background-color: black;
+}
+
+.month{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+}
+
+.month h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+}
+
+.month h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    color: #FFB059;
+    font-weight:bolder;
+    font-size: 3vw;
+}
+
+.squares a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    display: none;
+    top: 6.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yer:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+}   
+
+.yer:hover .dropdown-menu li{
+    list-style: none;
+    display: block;
+}
+
+.dropdown-menu ul li a{
+    text-decoration: none;
+    font-size: 1.7vw;
+}
+
+.dropdown-menu2{
+    display: none;
+    top: 6.7vw;
+}
+
+.jan:hover .dropdown-menu2{
+    display: block;
+    position: absolute;
+}
+
+.jan:hover .dropdown-menu2 li{
+    list-style: none;
+    display: block;
+}
+
+.dropdown-menu2 ul li a{
+    text-decoration: none;
+    font-size: 1.7vw;
+}
+
+.head{
+    display: flex;
+    gap: 5vw;
+}
+
+.head a{
+    font-size: 1.8vw;
+    color: #FFB059;
+    margin-left: 0.5vw;
+}
+
+.back2 a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.7vw;
+}
+
+.back{
+    background-color: white;
+    border-radius: 0.4vw;
+    width: 11vw;
+    height: 2.5vw;
+    border: 1px solid black;
+}
+
+.back2{
+    background-color: white;
+    border-radius: 0.4vw;
+    width: 8vw;
+    height: 2.5vw;
+    border: 1px solid black;
+}
+
+.back a i{
+    margin-left: 1vw;
+    color: black;
+}
+
+.back2 a i{
+    margin-left: 1vw;
+}
+
+.jan{
+    margin-top: 0.6vw;
+    margin-right: 4.5vw;
+}
+
+.yer{
+    margin-top: 0.6vw;
+    margin-left: 2vw;
+}
+
+.f{
+    opacity: 0.5;
+}
+
+
+

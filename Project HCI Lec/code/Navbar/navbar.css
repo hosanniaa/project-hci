@@ -1,0 +1,213 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+a{
+    text-decoration: none;
+    color: black    ;
+}
+
+#navbar-circle{
+    width: 20vw;
+    position: fixed;
+    z-index: 500;
+    top: -9vw;
+    left: -9vw;
+}
+
+.navbar-container{
+    width:100vw;
+    height:6vw;
+    /* border: 5px solid red; */
+    background-image: url(/img/navbar-line.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: fixed;
+    z-index: 500;
+}
+
+#logo-prekittyw{
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 0.5vw;
+    width: 3.5vw;
+}
+
+
+#logo-txt{
+    /* border: 5px solid red; */
+    font-size: 3vw;
+    margin-left: 45vw;
+}
+
+#pojok{
+    position: fixed;
+    width: 8vw;
+    z-index: 10000;
+    cursor: pointer;
+    /* transition: 200ms; */
+}
+
+#navbar-menu-container{
+    position: fixed;
+    /* border: 5px solid red; */
+    width: 15vw;
+    height: 25vw;
+    margin-top: 12vw;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 500ms;
+    z-index: 499;
+}
+
+.nav-button-box{
+    width: 100%;
+    height: 20%;
+    /* border: 5px solid red ; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-button{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    /* border: 5px solid    red ; */
+    margin-left: 1vw;
+    background-color: #C9C9C9;
+    filter: drop-shadow(0 4px 1px #9A9794);
+    display: flex;
+    justify-content: center;
+    transition: 200ms;
+}
+
+.nav-text{
+    border:2px solid black;
+    width: 7vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 1vw;
+    opacity: 0;
+    margin-left: -5vw;
+    transition: 200ms;  
+    z-index: -1;
+}
+
+.nav-button-box:hover > .nav-text{
+    opacity: 1;
+    margin-left: 0.3vw;
+    transition: 200ms;
+}
+
+.nav-button-box:hover > .nav-button{
+    margin-left: 0.7vw;
+    transition: 200ms;
+}   
+
+#nav-account{
+    position: fixed;
+    z-index: 501;
+    right: 1%;
+    top: 1%;
+    cursor: pointer;
+    width: 4vw;
+    transition: 200ms;
+}
+
+#nav-account-container{
+    width: 15vw;
+    height: 15vw;
+    position: fixed;
+    z-index: 502;
+    /* border: 5px solid green; */
+    right: 0%;
+    top: 6.5vw;
+    background-color: #FFB059;
+    display: none;
+    grid-template-rows: 2fr 3fr;
+    transition: 300ms;
+}
+
+#account-id{
+    /* border: 5px solid red; */
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+}
+
+#account-id > img{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+#account-info > p{
+    font-size: 0.7vw;
+}
+
+#account-info h3{
+    font-size: 1vw;
+}
+
+#account-choice{
+    /* border: 5px solid brown; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* justify-content: center; */
+}
+
+.choice{
+    /* border: 5px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    transition: 200ms;
+    font-size: 1vw;
+    cursor: pointer;
+    border-top: 1px solid #616161;
+}
+
+.choice > img{
+    width: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.choice:hover{
+    background-color: #e9cfb3;
+    transition: 200ms;
+}
+
+#current{
+    width: 100%;
+    height: 20%;
+    /* border: 5px solid red ; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#current >.nav-text{
+    opacity: 1;
+    margin-left: 0.3vw;
+    transition: 200ms;
+}
+
+#current > .nav-button{
+    margin-left: 0.7vw;
+    transition: 200ms;
+    background-color: #FFB059;
+}  

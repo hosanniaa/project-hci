@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.login-form{
+    /* background-color: red; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.7fr 1fr;
+}
+
+.masuk{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form>input{
+    background-color: #A19B9B;
+    color: white;
+    border: none;
+    border-radius: 3vw;
+    padding-left: 1vw;
+    width: 25vw;
+    height: 4vw;
+}
+.form>input::placeholder{
+    color: white;
+}
+.form>input:focus{
+    outline: none;
+}
+.password{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingat-saya{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 3vw;
+}
+
+.ingat-saya>input[type="checkbox"]{
+    accent-color: gray;
+    width: 2vw;
+    position: relative;
+}
+
+.login-button{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button button{
+    width: 25vw;
+    height: 4vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+.daftar{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.daftar p{
+    font-size: 1.2vw;
+}
+.atau{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+}
+.line{
+    width: 10vw;
+    height: 0.2vw;
+    background-color: #D9D9D9;
+}
+.atau p{
+    color: #D9D9D9;
+}
+.daftar a{
+    color: black;
+}
+
+.button3{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.button3 img{
+    width: 7vw;
+    /* border: 5px solid red; */
+    cursor: pointer;
+}
+
+
+
+

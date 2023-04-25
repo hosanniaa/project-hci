@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="/code/Navbar/navbar.css">
+</head>
+<body>
+    
+
+    <div class="navbar-container">
+        <img id="logo-prekittyw" src="/img/Logo_prekittyw.png" alt="">
+        <p id="logo-txt"><b>prekittyw</b></p>
+    </div> <!-- navbar-container -->
+    <img id="navbar-circle" src="/img/navbar-circle.png" alt="">
+    <img src="/img/navbar_kucing.png" alt="" id="pojok">
+    <div id="navbar-menu-container">
+        <a href="/code/Mading/Mading.html" class="nav-button-box">
+                <div class="nav-button">
+                    <img src="/img/nav-lonceng.png" alt="">
+                </div> <!-- nav-button -->
+                <div class="nav-text">
+                    <p>Mading</p>
+                </div>
+        </a> <!-- nav-button-box -->
+        <a href="/code/Kelas/Kelas-List/list.html" class="nav-button-box" id="current">
+                <div class="nav-button">
+                    <img src="/img/nav-kelas.png" alt="">
+                </div> <!-- nav-button -->
+                <div class="nav-text">
+                    <p>Kelas</p>
+                </div>
+        </a> <!-- nav-button-box -->
+        <a href="/code/Tugas/Tugas.html" class="nav-button-box">
+                <div class="nav-button">
+                    <img src="/img/nav-tugas.png" alt="">
+                </div> <!-- nav-button -->
+                <div class="nav-text">
+                    <p>Tugas</p>
+                </div>
+        </a> <!-- nav-button-box -->
+        <a href="/code/Kalender/Kalender-list.html" class="nav-button-box">
+                <div class="nav-button">
+                    <img src="/img/nav-kalender.png" alt="">
+                </div> <!-- nav-button -->
+                <div class="nav-text">
+                    <p>Kalender</p>
+                </div>
+        </a> <!-- nav-button-box -->
+    </div> <!-- nav-menu-container -->
+    <img id="nav-account" src="/img/nav-account.png" alt="">
+    <div id="nav-account-container">
+        <div id="account-id">
+            <div id="account-info">
+                <b><h3>Kitty Prekittyw</h3></b>
+                <p>kitty.prekittyw@binus.ac.id</p>
+            </div>
+            <img src="/img/nav-account.png" alt="">
+        </div>
+        <div id="account-choice">
+            <div class="choice">
+                <p>Settings</p>
+                <img src="/img/nav-gear-2.png" alt="">
+            </div>
+            <div class="choice">
+                <p>Manage accounts</p>
+                <img src="/img/nav-manage.png" alt="">
+            </div>
+            <a href="" class="choice">
+                <p>Sign out</p>
+                <img src="/img/nav-signout-2-removebg-preview.png" alt="">
+            </a>
+        </div>
+    </div> <!-- account-choice -->
+
+    <!-- button untuk tambah kelas -->
+    <div id="plus-container">
+
+    </div>
+
+    <div id="plus-option-container">
+        <div class="plus-box" id="buat-kelas">
+            <div class="plus-text">
+                <p>Buat kelas</p>
+            </div>
+            <div class="plus-button">
+                <img src="/img/plus-buatkelas.png" alt="">
+            </div> <!-- nav-button -->
+        </div> <!-- nav-button-box -->
+        <div class="plus-box" id="gabung-kelas">
+            <div class="plus-text">
+                <p>Tambah kelas</p>
+            </div>
+            <div class="plus-button">
+                <img src="/img/plus-tambahkelas.png" alt="">
+            </div> <!-- nav-button -->
+        </div> <!-- nav-button-box -->
+    </div> <!-- plus-option-container -->
+
+    <!-- overlay tambah kelas -->
+    <div class="overlay-container" id="buat-container">
+        <div class="title-container">
+            <h2>Buat kelas</h2>
+            <img class="close-buat" src="/img/Close.png" alt="">
+
+        </div> <!-- title-container -->
+        <div class="text-container">
+            <fieldset>
+                <legend style="font-size: 1vw; margin-left: 1vw;">Masukkan mata pelajaran</legend>
+                <p>
+                  <input class="text-field" type="text" name="alamat_kantor" id="alamat_kantor" placeholder="Mata pelajaran" style="font-size: 0.7vw; padding-left: 1vw;">
+                </p>
+             </fieldset>
+        </div> <!-- text-container -->
+        <div class="text-container">
+            <fieldset>
+                <legend style="font-size: 1vw; margin-left: 1vw;">Masukkan kelas</legend>
+                <p>
+                  <input class="text-field" type="text" name="alamat_kantor" id="alamat_kantor" placeholder="Kelas" style="font-size: 0.7vw; padding-left: 1vw;">
+                </p>
+             </fieldset>
+        </div> <!-- text-container -->
+        <div class="text-container">
+            <fieldset>
+                <legend style="font-size: 1vw; margin-left: 1vw;">Masukkan semester</legend>
+                <p>
+                  <input class="text-field" type="text" name="alamat_kantor" id="alamat_kantor" placeholder="Semester" style="font-size: 0.7vw; padding-left: 1vw;">
+                </p>
+             </fieldset>
+        </div> <!-- text-container -->
+        <div class="text-container">
+            <fieldset>
+                <legend style="font-size: 1vw; margin-left: 1vw;">Masukkan kode kelas</legend>
+                <p>
+                  <input class="text-field" type="text" name="alamat_kantor" id="alamat_kantor" placeholder="Kode kelas" style="font-size: 0.7vw; padding-left: 1vw;">
+                </p>
+             </fieldset>
+        </div> <!-- text-container -->
+        <button class="btn-submit"><b>Buat</b></button>
+    </div> <!-- overlay-container -->
+
+    <div class="overlay-container" id="gabung-container">
+        <div class="title-container">
+            <h2>Gabung kelas</h2>
+            <img class="close-gabung" src="/img/Close.png" alt="">
+
+        </div> <!-- title-container -->
+        <div class="text-container">
+            <fieldset>
+                <legend style="font-size: 1vw; margin-left: 1vw;">Masukkan kode kelas</legend>
+                <p>
+                  <input class="text-field" type="text" name="alamat_kantor" id="alamat_kantor" placeholder="Kode kelas" style="font-size: 0.7vw; padding-left: 1vw;">
+                </p>
+             </fieldset>
+        </div> <!-- text-container -->
+
+        <button class="btn-submit"><b>Bergabung</b></button>
+    </div> <!-- overlay-container -->
+    
+
+
+    <!-- isi -->
+
+
+    <div class="class-container">
+        
+        <a href="/code/Kelas/Kelas-Beranda/beranda.html" class="one-class">
+            <div class="photo" id="fikri"></div> <!-- photo -->
+            <div class="header" id="ds">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">DATA STRUCTURE</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+                
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Muhammad Fikri Hasani</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+                    
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+
+        </a> <!-- one-class -->
+        <a href="" class="one-class">
+            <div class="photo" id="faisal"></div> <!-- photo -->
+            <div class="header" id="calculus">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">CALCULUS</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Faisal</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+        
+        <a href="" class="one-class">
+            <div class="photo" id="p2"></div> <!-- photo -->
+            <div class="header" id="h2">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">OBJECT ORIENTED..</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Yudy Purnama</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+        
+        <a href="" class="one-class">
+            <div class="photo" id="p3"></div> <!-- photo -->
+            <div class="header" id="h3">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">SCIENTIFIC COMPUTING</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Nur Hanan</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+
+        <a href="" class="one-class">
+            <div class="photo" id="p4"></div> <!-- photo -->
+            <div class="header" id="h4">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">HUMAN COMPUTER..</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Pualam Dipa Nusantara</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+
+        <a href="" class="one-class">
+            <div class="photo" id="p5"></div> <!-- photo -->
+            <div class="header" id="h5">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">CHARACTER BUILD..</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Benny</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+
+        <a href="" class="one-class">
+            <div class="photo" id="p6"></div> <!-- photo -->
+            <div class="header" id="h6">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">ALGORITHM AND PRO..</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Harvianto</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+
+        <a href="" class="one-class">
+            <div class="photo" id="p7"></div> <!-- photo -->
+            <div class="header" id="h7">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">LINEAR ALGEBRA</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Faisal</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+
+        <a href="" class="one-class">
+            <div class="photo" id="p8"></div> <!-- photo -->
+            <div class="header" id="h3">
+                <div class="three-dot">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div> <!-- three-dot -->
+                <div class="header-text" >
+                    <h3 class="matkul">PROGRAM DESIGN..</h3>
+                    <p>PPTI 14 - SEMESTER 2</p>
+                </div>  
+
+            </div> <!-- header -->
+            <div class="content">
+                <div class="content-text"><p>Admin: Yulyani Arifin</p></div> <!-- content-text -->
+                <div class="content-buttons">
+                    <div class="buttons-container">
+                        <img src="/img/list-chatlogo.png" alt="">
+                        <img src="/img/list-tasklogo.png" alt="">
+                    </div>
+
+                </div> <!-- content-buttons -->
+            </div> <!-- content -->
+        </a> <!-- one-class -->
+    </div> <!-- class-container -->
+</body>
+
+<script src="/code/Navbar/navbar.js"></script>
+<script src="/code/Kelas/Kelas-List/list.js"></script>
+</html>

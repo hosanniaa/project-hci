@@ -1,0 +1,86 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.register-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8vw;
+}
+
+.back-button-container{
+    width: 100%;
+    height: 4vw;
+    /* border: 4px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.back-button-container a{
+    text-decoration: none;
+    color: black;
+}
+.back-button{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-right: 1vw;
+}
+.back-button img{
+    width: 3vw;
+    height: 2vw;
+}
+
+.masuk{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form>input{
+    background-color: #A19B9B;
+    color: white;
+    border: none;
+    border-radius: 3vw;
+    padding-left: 1vw;
+    width: 25vw;
+    height: 4vw;
+}
+.form>input::placeholder{
+    color: white;
+}
+.form>input:focus{
+    outline: none;
+}
+.password{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-button{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-button button{
+    width: 25vw;
+    height: 4vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
